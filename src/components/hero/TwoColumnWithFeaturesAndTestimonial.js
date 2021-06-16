@@ -2,11 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import HeaderBase, {
-  NavLinks,
-  NavLink,
-  PrimaryLink,
-} from "components/headers/light.js";
+import HeaderBase from // NavLinks,
+// NavLink,
+// PrimaryLink,
+"components/headers/light.js";
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
@@ -75,23 +74,23 @@ export default ({
   },
 }) => {
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
-  const navLinks = [
-    // <NavLinks key={1}>
-    //   <NavLink href="/#">About</NavLink>
-    //   <NavLink href="/#">Blog</NavLink>
-    //   <NavLink href="/#">Pricing</NavLink>
-    //   <NavLink href="/#">Contact Us</NavLink>
-    //   <NavLink href="/#">Testimonials</NavLink>
-    // </NavLinks>,
-    // <NavLinks key={2}>
-    //   <NavLink href="/#" tw="lg:ml-12!">
-    //     Login
-    //   </NavLink>
-    //   <PrimaryLink css={buttonRoundedCss} href="/#">
-    //     Sign Up
-    //   </PrimaryLink>
-    // </NavLinks>,
-  ];
+  // const navLinks = [
+  //   // <NavLinks key={1}>
+  //   //   <NavLink href="/#">About</NavLink>
+  //   //   <NavLink href="/#">Blog</NavLink>
+  //   //   <NavLink href="/#">Pricing</NavLink>
+  //   //   <NavLink href="/#">Contact Us</NavLink>
+  //   //   <NavLink href="/#">Testimonials</NavLink>
+  //   // </NavLinks>,
+  //   // <NavLinks key={2}>
+  //   //   <NavLink href="/#" tw="lg:ml-12!">
+  //   //     Login
+  //   //   </NavLink>
+  //   //   <PrimaryLink css={buttonRoundedCss} href="/#">
+  //   //     Sign Up
+  //   //   </PrimaryLink>
+  //   // </NavLinks>,
+  // ];
   return (
     <>
       <Header links={[]} />
